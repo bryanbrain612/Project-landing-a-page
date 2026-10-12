@@ -1,0 +1,29 @@
+img{ max-width: 200px;
+        width: 100%;
+        height: auto;
+    }
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#tete{
+    display: flex;
+    background-color: blanchedalmond;
+    gap: 20px;
+}
+
+.droite,
+.gauche {
+    flex: 1 1 0;
+    min-width: 0;
+
+
+}
